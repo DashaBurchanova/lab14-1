@@ -1,0 +1,63 @@
+body {
+    background-color: #a6b9f5;
+}
+
+.letter1 {
+            color: red; /* Цвет символа */
+            font-size: 200%; /* Размер шрифта */
+           } 
+           p {
+            color: rgb(49, 151, 116); /* Цвет текста */
+               font-size: 24px;
+            }
+               .letter2 {
+                   color: darkblue;
+                   font-size: 200%; 
+            }
+           a {
+               text-decoration: underline solid Currentcolor;
+  
+  transition: text-decoration 1s ease;
+  display: block;
+  width: 100px;
+  border: 1px solid green;
+  margin: 1em auto;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+a:hover {
+  text-decoration: underline solid transparent;
+}
+
+.block2 {
+    border: 3px solid #9c339e;
+    width: 300px;
+    text-align: center;
+    background-color: beige;
+}
+
+a:link, a:visited, a:hover, a:active {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-size: 11px;
+}
+a:link, a:visited {
+color: #3A681A;
+}
+
+a:hover {
+color: #5CA22E;
+}
+a:active {
+color: #DC0000;
+}
+.pole, .pole2 {
+border: 1px solid #008000;
+font-size: 11px;
+background-color: #E7F2D7;
+height: 17px;
+}
+.pole {
+width: 95px;
+}
